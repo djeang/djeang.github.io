@@ -1,0 +1,25 @@
+🌟 JeKa: Ditch your Old Java Build Tools
+
+While Java is trending toward becoming a simpler and lighter language to attract more developers,
+the complexity of its build tools—based on XML or external scripting languages—remains a real pain in the neck.
+
+That's where JeKa comes in. It's a project I started a few years ago and recently launched, offering:
+
+🤝  A focus on user-friendliness without compromising power
+
+🪽  Lightness and super-portability (works where there's no Java)
+
+☕  Configuration with simple properties or Java code
+
+🚀  Direct execution of Java source code
+
+These characteristics make JeKa extraordinarily simple to use, both for beginners and when handling complex scenarios,
+making Java just more fun to work with.
+
+Since JeKa already supports common technologies like Spring Boot, Docker, Native images, OpenAPI, SonarQube, and more,
+you can likely give it a real try.
+
+Anyway, feel free to check out:
+  - Website: https://jeka.dev
+  - Getting started video: https://youtu.be/r-PUX6amBrw
+  - SpringBoot-Docker-Native video: https://youtu.be/yfmaAwAjJ2w
