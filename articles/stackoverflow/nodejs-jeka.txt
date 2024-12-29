@@ -1,0 +1,17 @@
+Answer to : Executing a terminal command from Java without any change
+https://stackoverflow.com/questions/66163357/executing-a-terminal-command-from-java-without-any-change
+
+
+You can use [Jeka][1] along its nodeJs plugin as library.
+Import these 2 libs:
+ - dev.jeka:jeka-core:0.11.11
+ - dev.jeka:nodejs-plugin:0.11.11
+
+Then just execute:
+
+    JkNodeJs.ofVersion("22.12.0")
+        .npx("cowsay Hello World !");
+
+This will download Node.js v22.12.0 on the first run and execute the npx command. Subsequent runs will be faster, as the downloaded Node.js version will be cached.
+
+  [1]: https://jeka.dev
